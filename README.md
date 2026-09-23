@@ -12,6 +12,7 @@ during my MCA journey.
 ## 🛠️ Language
 
 - Python 3
+- Java
 
 ## 📚 Topics
 
