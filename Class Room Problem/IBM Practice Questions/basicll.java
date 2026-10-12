@@ -11,7 +11,6 @@ public class basicll {
 
     public static void main(String[] args) {
         Node a = new Node(5);
-        System.out.println(a.next);
         Node b = new Node(10);
         Node c = new Node(15);
         Node d = new Node(16);
@@ -19,8 +18,10 @@ public class basicll {
         a.next = b;
         b.next = c;
         c.next = d;
-        System.out.println(a.next);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.println(a.data); // 5
+        System.out.println(a.next.data); // 10
+        System.out.println(b.data); // 10
+        System.out.println(c.next.data); // 16
+        // System.out.println(d.data);
     }
 }
