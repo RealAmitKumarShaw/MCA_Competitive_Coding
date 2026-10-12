@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Insertion_In_LL {
     static class Node {
         int data;
@@ -10,6 +12,8 @@ public class Insertion_In_LL {
     }
 
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
         Node a = new Node(10);
         Node b = new Node(20);
         Node c = new Node(30);
@@ -83,8 +87,26 @@ public class Insertion_In_LL {
         System.out.println("null");
 
         Node newElement2 = new Node(25);
-        
-        
+
+        System.out.println("Enter the position: ");        
+        int position = in.nextInt();
+
+        current = a;
+        for(int i = 1; i < position - 1; i++){
+            current = current.next;
+        }
+        newElement2.next = current.next;
+        current.next = newElement2;
+
+        // Printing Linked List After Intsertion
+        System.out.print("After: ");
+        current = a;
+
+        while (current != null) {
+            System.out.print(current.data + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
 
     }
 }
