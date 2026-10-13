@@ -107,6 +107,6 @@ public class Insertion_In_LL {
             current = current.next;
         }
         System.out.println("null");
-
+        in.close();
     }
 }
