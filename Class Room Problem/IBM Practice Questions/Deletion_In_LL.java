@@ -108,6 +108,7 @@ public class Deletion_In_LL {
             System.out.print(current.data + " -> ");
             current = current.next;
         }
+        
         System.out.println("null");
 
         in.close();
