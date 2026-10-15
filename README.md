@@ -24,6 +24,8 @@ during my MCA journey.
 - Two Pointer
 - Binary Search
 - Bit Manipulation
+- Searching and Sorting
+- Problem-Solving Patterns
 - And more...
 
 ## 🎯 Goals
