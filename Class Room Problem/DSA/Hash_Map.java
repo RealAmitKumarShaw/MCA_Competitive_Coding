@@ -7,8 +7,8 @@ public class Hash_Map{
         HashMap<Integer, String> map = new HashMap<>();
 
         map.put(1, "Java");
-        map.put(2, "Python");
         map.put(3, "C++");
+        map.put(2, "Python");
 
         System.out.println(map);
 
